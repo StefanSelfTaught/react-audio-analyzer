@@ -1,0 +1,39 @@
+.button {
+  margin: 10px !important;
+  width: 50px !important;
+  height: 50px !important;
+  background-color: rgb(0, 255, 66) !important;
+}
+
+.frequencyBands {
+  padding: 15px;
+  margin: 8px;
+  transform: rotateX(180deg);
+  transform-origin: top;
+}
+
+.chip {
+  margin: 10px !important;
+  width: 105px;
+}
+
+.buttonsWrapper {
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  transform: translate(-50%,-50%);
+}
+
+.chipsWrapper {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%,-50%);
+}
+
+.frequencyBandsWrapper {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 25%;
+}
